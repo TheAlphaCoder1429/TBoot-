@@ -1,4 +1,4 @@
-# Ignore Ctrl+C (SIGINT) and Ctrl+Z (SIGTSTP) during the boot animation
+# ignore Ctrl+C (SIGINT) and Ctrl+Z (SIGTSTP) during the boot animation
 trap '' INT TSTP
 PS1="\[\e[38;5;196m\]#\[\e[38;5;202m\]{\[\e[38;5;208m\]@Kali\[\e[38;5;214m\]_Termux\[\e[38;5;220m\]}/\\e[38;5;190m\]\W \[\e[38;5;154m\]: \[\e[0m\]"
 export PS1="\[\033[1;31m\]#{Kali_Termux}\[\033[1;37m\]|\[\033[1;34m\]\w\[\033[1;37m\]:\[\033[0m\] "
