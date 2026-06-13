@@ -171,4 +171,4 @@ fi
 
 trap - INT TSTP
 
-# Made By Saurabh Nayak using Bash script!
+# Made By Saurav Nayak using Bash script!
